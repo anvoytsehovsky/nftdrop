@@ -3,11 +3,12 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex">
       <Head>
         <title>NFT Drop</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1 className="text-4xl text-red-500">Welcome my Site!</h1>
     </div>
   );
 };
